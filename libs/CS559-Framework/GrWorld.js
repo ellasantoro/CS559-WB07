@@ -147,7 +147,7 @@ export class GrWorld {
             this.groundplane = new SimpleGroundPlane(
                 params.groundplanesize || 5,
                 0.2,
-                params.groundplanecolor || "#3e7843"
+                params.groundplanecolor || "darkgreen"
             );
         }
         if (this.groundplane)
